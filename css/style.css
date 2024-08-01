@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Orbitron:wght@400..900&display=swap');
+
+body{
+    background-color: #2b2b2b;
+}
+
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    height: 100vh;
+}
+
+#hour, #min, #sec, #ap {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-family: "Orbitron", sans-serif;
+    backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.168);
+}
